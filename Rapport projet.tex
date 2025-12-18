@@ -102,7 +102,18 @@ Le joueur est l'acteur principal et peut interagir avec le système \verb|Jeu| v
     \caption{Diagramme d'état-transition}
     \label{diagrammeEtatTransition}
 \end{figure}
-L'objectif du diagramme d'état-transition est de montrer les différents états que peut prendre notre jeu au fur et a mesure du déroulement de la partie. Nous avons donc modéliser les differentes étapes de la partie de l'initialisation au fonctionnement de la partie.
+L'objectif du diagramme d'état-transition est de montrer les différents états que peut prendre notre jeu au fur et a mesure du déroulement de la partie. Nous avons donc modéliser les differentes étapes de la partie de l'initialisation à la fin de la partie.\\
+Les états sont les suivants :\\
+\begin{itemize}
+    \item \textbf{Initialisation} : L'état composite initial de la partie, où le joueur peut lancer la partie.
+    \item \textbf{PlateauCréer} : L'état après que le plateau ai été créé.
+    \item \textbf{TuileCréer} : L'état après que la tuile ai été créée.
+    \item \textbf{Tour} : L'état composite où le joueur peut jouer un tour.
+    \item \textbf{Attente Action} : L'état où le joueur peut placer une tuile, la tourner ou consulter le score.
+    \item \textbf{Mise à jour} : L'état composite où la vue est mise a jour après avoir placer une tuile pour que le joueur puisse consulter le score.
+    \item \textbf{Fin de partie} : L'état final de la partie, où le joueur peut consulter le score.
+\end{itemize}
+
 \newpage
 \section{Patrons de conception}
 Pour modéliser notre jeu DorfJavatik, nous avons utilisé trois patrons de conception différents : l'Observateur, la Factory et le Singleton. \\
