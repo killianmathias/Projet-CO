@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.4)  18 DEC 2025 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.3.4)  18 DEC 2025 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -163,73 +163,77 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `"Rapport projet.toc"'.
 
  [2] [3]
-<assets/diagrammeClasse.png, id=17, 940.51375pt x 764.8575pt>
+<assets/diagrammeClasse.png, id=17, 890.32625pt x 888.31876pt>
 File: assets/diagrammeClasse.png Graphic file (type png)
 <use assets/diagrammeClasse.png>
 Package pdftex.def Info: assets/diagrammeClasse.png  used on input line 31.
-(pdftex.def)             Requested size: 288.0011pt x 234.20901pt.
+(pdftex.def)             Requested size: 288.0011pt x 287.34471pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
 [4 <./assets/diagrammeClasse.png>]
-<assets/diagrammeObjet.png, id=25, 1214.5375pt x 711.65875pt>
+<assets/diagrammeObjet.png, id=25, 1856.9375pt x 1102.1175pt>
 File: assets/diagrammeObjet.png Graphic file (type png)
 <use assets/diagrammeObjet.png>
 Package pdftex.def Info: assets/diagrammeObjet.png  used on input line 48.
-(pdftex.def)             Requested size: 288.0011pt x 168.74922pt.
+(pdftex.def)             Requested size: 360.0pt x 213.65918pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[5 <./assets/diagrammeObjet.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[5 <./assets/diagrammeObjet.png>]
 <assets/diagrammeSequence.png, id=30, 1470.49374pt x 1264.725pt>
 File: assets/diagrammeSequence.png Graphic file (type png)
 <use assets/diagrammeSequence.png>
-Package pdftex.def Info: assets/diagrammeSequence.png  used on input line 70.
+Package pdftex.def Info: assets/diagrammeSequence.png  used on input line 71.
 (pdftex.def)             Requested size: 360.0pt x 309.61911pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--80
+Underfull \hbox (badness 10000) in paragraph at lines 75--81
 
  []
 
 [6 <./assets/diagrammeSequence.png>]
-<assets/diagrammeCasUtilisation.png, id=35, 838.13126pt x 578.16pt>
+<assets/diagrammeCasUtilisation.png, id=35, 1383.1675pt x 984.67876pt>
 File: assets/diagrammeCasUtilisation.png Graphic file (type png)
 <use assets/diagrammeCasUtilisation.png>
 Package pdftex.def Info: assets/diagrammeCasUtilisation.png  used on input line
- 84.
-(pdftex.def)             Requested size: 288.0011pt x 198.66261pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
-9.
+ 85.
+(pdftex.def)             Requested size: 288.0011pt x 205.01569pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
-<assets/diagrammeEtatTransition.jpeg, id=36, 981.6675pt x 561.09625pt>
-File: assets/diagrammeEtatTransition.jpeg Graphic file (type jpg)
-<use assets/diagrammeEtatTransition.jpeg>
-Package pdftex.def Info: assets/diagrammeEtatTransition.jpeg  used on input lin
-e 101.
-(pdftex.def)             Requested size: 360.0pt x 205.76161pt.
-[7 <./assets/diagrammeCasUtilisation.png>] [8 <./assets/diagrammeEtatTransition
-.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[7 <./assets/diagrammeCasUtilisation.png>]
+<assets/diagrammeEtatTransition.png, id=42, 1599.9775pt x 897.3525pt>
+File: assets/diagrammeEtatTransition.png Graphic file (type png)
+<use assets/diagrammeEtatTransition.png>
+Package pdftex.def Info: assets/diagrammeEtatTransition.png  used on input line
+ 102.
+(pdftex.def)             Requested size: 360.0pt x 201.8956pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-[9] (./Rapport projet.aux)
+[8 <./assets/diagrammeEtatTransition.png>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+[10] (./Rapport projet.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -237,7 +241,7 @@ L3 programming layer <2024-01-22>
  ) 
 Here is how much of TeX's memory you used:
  3439 strings out of 474222
- 57178 string characters out of 5748734
+ 57171 string characters out of 5748734
  1928975 words of memory out of 5000000
  25691 multiletter control sequences out of 15000+600000
  568114 words of font info for 57 fonts, out of 8000000 for 9000
@@ -250,10 +254,10 @@ m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb
 onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
 
-Output written on "Rapport projet.pdf" (9 pages, 520905 bytes).
+Output written on "Rapport projet.pdf" (10 pages, 645057 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
