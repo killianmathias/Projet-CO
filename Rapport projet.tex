@@ -23,7 +23,7 @@ Ce projet consiste en la modélisation d'un jeu : DorfJavatik. Ce dernier est in
 \newpage
 \section{Diagrammes UML}
 
-La première étape dans le développement d'un jeu est d'abord d'analyser et d'établir le cahier des charges. Pour ce faire nous utiliserons différent diagrammes UML, en commençant par le diagramme de classe.
+La première étape dans le développement d'un jeu est d'abord d'analyser et d'établir le cahier des charges. Pour ce faire nous utiliserons différents diagrammes UML, en commençant par le diagramme de classe.
 \subsection{Diagramme de classe}
 
 \begin{figure}[h!]
@@ -38,8 +38,8 @@ L'objectif de ce diagramme de classe est de mettre en évidence les différentes
 Dans notre diagramme, la classe Vue jouera le rôle de View, la classe Partie jouera le rôle de Controller car c'est avant tout elle qui va gérer le comportement de notre jeu et enfin le reste jouera le rôle de Model car ce sont des structures de données qui seront utiles au bon fonctionnement de notre jeu sans gérer la logique derrière.\\
 
 \subsubsection{Model}
-Dans un diagramme de classe de classe, le choix des structures est essentiel au bon fonctionnement du produit final.\\
-Dans un premier temps, pour notre tuile, nous avons trouvé pertinent de stocker les données dans différentes structures : Tuile, Zone, Biome et Couleur. Etant donné que la tuile possède 4 zones on a établi un lien 1 -> 4 de la tuile à la zone. Chaque zone possède un type parmi l'énumération Type Zone (Nord, Sud, Est et Ouest) ainsi qu'un biome associé. Un biome est soit : Rivière, Montagne, Village, Forêt et Champ. Pour ce qui est des couleurs des biomes, ça sera la vue qui gérera l'affichage de ces dernières.\\
+Dans un diagramme de classe, le choix des structures est essentiel au bon fonctionnement du produit final.\\
+Dans un premier temps, pour notre tuile, nous avons trouvé pertinent de stocker les données dans différentes structures : Tuile, Zone, Biome et Couleur. Étant donné que la tuile possède 4 zones on a établi un lien 1 -> 4 de la tuile à la zone. Chaque zone possède un type parmi l'énumération Type Zone (Nord, Sud, Est et Ouest) ainsi qu'un biome associé. Un biome est soit : Rivière, Montagne, Village, Forêt et Champ. Pour ce qui est des couleurs des biomes, ce sera la vue qui gérera l'affichage de ces dernières.\\
 Puis il faut aussi modéliser le plateau de jeu, qui peut être composé de 0 (au début de la partie) à 25 tuiles (à la fin de la partie).
 
 \subsection{Diagramme d'objet}
@@ -50,8 +50,8 @@ Puis il faut aussi modéliser le plateau de jeu, qui peut être composé de 0 (a
     \label{diagrammeObjet}
 \end{figure}
 
-L'objectif du diagramme d'objet est de modéliser un exemple concret de notre jeu. Nous avons choisi de montrer le comportement de notre jeu en montrant le comportement d'une partie avec 2 tuiles sur le plateau. Elle-même composé de 4 Zone chacune.\\
-Chaque Zone possède un biome, d'une couleur et d'un nom.\\
+L'objectif du diagramme d'objet est de modéliser un exemple concret de notre jeu. Nous avons choisi de montrer le comportement de notre jeu en montrant le comportement d'une partie avec 2 tuiles sur le plateau. Elle-même composée de 4 Zones chacune.\\
+Chaque Zone possède un biome, une couleur et un nom.\\
 
 Dans notre exemple il y a 5 Biomes :
 \begin{itemize}
@@ -61,7 +61,7 @@ Dans notre exemple il y a 5 Biomes :
     \item Forêt : Vert
     \item Champ : Jaune
 \end{itemize}
-Les deux tuiles sont composé de differents biomes et sont placées de manière à ce que les biomes soient connectés. Ce qui signifie que le nord de la première tuile est connecté au sud de la seconde tuile, cela genere donc un score de 1 dans la vue.\\
+Les deux tuiles sont composées de différents biomes et sont placées de manière à ce que les biomes soient connectés. Ce qui signifie que le nord de la première tuile est connecté au sud de la seconde tuile, cela génère donc un score de 1 dans la vue.\\
 
 
 \subsection{Diagramme de séquence}
@@ -71,7 +71,7 @@ Les deux tuiles sont composé de differents biomes et sont placées de manière 
     \caption{Diagramme de séquence}
     \label{diagrammeSequence}
 \end{figure}
-L'objectif du diagramme de séquence est de modéliser le comportent et les interactions que l'on souhaite entre les différents acteurs. Nous avons choisi comme acteurs le joueur, la vue, une tuile, la partie, l'usine de tuiles et le plateau de jeu.\\
+L'objectif du diagramme de séquence est de modéliser le comportement et les interactions que l'on souhaite entre les différents acteurs. Nous avons choisi comme acteurs le joueur, la vue, une tuile, la partie, l'usine de tuiles et le plateau de jeu.\\
 Le rôle du joueur dans ce diagramme est de montrer ses interactions avec la vue car c'est bel et bien lui qui va effectuer les choix de jeu.\\
 La vue va traiter les actions du joueur pour ensuite en faire une action concrète via la partie (le controller dans notre cas) ou la tuile, dans le cas où on souhaite la tourner.\\
 En fonction du choix du joueur, la partie va effectuer différentes actions, comme lancer la partie, jouer une tuile et la placer sur le plateau.\\
@@ -102,7 +102,7 @@ Le joueur est l'acteur principal et peut interagir avec le système \verb|Jeu| v
     \caption{Diagramme d'état-transition}
     \label{diagrammeEtatTransition}
 \end{figure}
-L'objectif du diagramme d'état-transition est de montrer les différents états que peut prendre notre jeu au fur et a mesure du déroulement de la partie. Nous avons donc modéliser les differentes étapes de la partie de l'initialisation au fonctionnement de la partie.
+L'objectif du diagramme d'état-transition est de montrer les différents états que peut prendre notre jeu au fur et à mesure du déroulement de la partie. Nous avons donc modélisé les différentes étapes de la partie de l'initialisation au fonctionnement de la partie.
 \newpage
 \section{Patrons de conception}
 Pour modéliser notre jeu DorfJavatik, nous avons utilisé trois patrons de conception différents : l'Observateur, la Factory et le Singleton. \\
@@ -111,7 +111,7 @@ Pour modéliser notre jeu DorfJavatik, nous avons utilisé trois patrons de conc
 Nous avons choisi de mettre en place le patron de conception Observateur pour que la Vue affiche en temps réel les données telles que le plateau ou le score du joueur. Pour ce faire, nous avons désigné la partie comme héritant de la classe Observable et la classe Vue héritant de Observer. Cela signifie qu'à chaque fois que la partie notifie la vue d'un changement alors la vue est mise à jour.
 
 \subsection{Patron Factory}
-Nous avons choisi d'implémenter le patron de conception Factory, car nous voulions qu'à chaque tour une tuile soit générée aléatoirement. Le but était donc de déléguer la tache de création aléatoire de ces tuiles à une entité différente de partie. Le patron de conception Factory correspondait parfaitement à notre besoin car il délègue la création d'un élément d'une classe à une usine (factory). Ici notre usine est la classe Tuile Factory qui possède une méthode créerTuile() et qui crée une tuile aléatoire.
+Nous avons choisi d'implémenter le patron de conception Factory, car nous voulions qu'à chaque tour une tuile soit générée aléatoirement. Le but était donc de déléguer la tâche de création aléatoire de ces tuiles à une entité différente de partie. Le patron de conception Factory correspondait parfaitement à notre besoin car il délègue la création d'un élément d'une classe à une usine (factory). Ici notre usine est la classe Tuile Factory qui possède une méthode créerTuile() et qui crée une tuile aléatoire.
 
 \subsection{Patron Singleton}
 Enfin, nous avons décidé d'utiliser le patron de conception Singleton car nous voulions que la partie soit unique. En effet, étant donné que ce n'est pas un jeu en ligne et que c'est un jeu à un seul joueur, il serait inutile de créer plusieurs instances du jeu. Nous avons donc utilisé ce patron dans le but de limiter notre partie à être unique.
