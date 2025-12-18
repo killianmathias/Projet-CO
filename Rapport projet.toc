@@ -1,15 +1,15 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{3}{}%
-\contentsline {section}{\numberline {2}Diagrammes UML}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Diagramme de classe}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Architecture MVC}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.2}Model}{5}{}%
-\contentsline {subsection}{\numberline {2.2}Diagramme d'objet}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Diagramme de séquence}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Diagramme de cas d'utilisation}{7}{}%
-\contentsline {subsection}{\numberline {2.5}Diagramme d'état-transition}{8}{}%
-\contentsline {section}{\numberline {3}Patrons de conception}{10}{}%
-\contentsline {subsection}{\numberline {3.1}Patron Observateur}{10}{}%
-\contentsline {subsection}{\numberline {3.2}Patron Factory}{10}{}%
-\contentsline {subsection}{\numberline {3.3}Patron Singleton}{10}{}%
-\contentsline {section}{\numberline {4}Conclusion}{10}{}%
+\contentsline {section}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {2}Diagrammes UML}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Diagramme de classe}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Architecture MVC}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Model}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Diagramme d'objet}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Diagramme de séquence}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Diagramme de cas d'utilisation}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Diagramme d'état-transition}{7}{}%
+\contentsline {section}{\numberline {3}Patrons de conception}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Patron Observateur}{9}{}%
+\contentsline {subsection}{\numberline {3.2}Patron Factory}{9}{}%
+\contentsline {subsection}{\numberline {3.3}Patron Singleton}{9}{}%
+\contentsline {section}{\numberline {4}Conclusion}{9}{}%
